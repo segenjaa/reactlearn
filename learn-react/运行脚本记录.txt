@@ -1,0 +1,27 @@
+﻿# 全局安装，只需要一次
+npm install -g create-react-app
+
+# 创建本地应用，只需要运行一次
+# 安装的是react，react-dom，react-scripts...
+npx create-react-app learn-react
+cd my-app
+npm start
+
+# 配合TypeScript
+第一种方式：创建项目的时候直接配置好TypeScript.
+npx create-react-app my-app --typescript
+
+第二种方式：为现有的React项目添加TypeScript
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+# 安装antd
+npm install antd --save
+
+# vs code格式化代码
+# On Windows Shift + Alt + F
+
+# react devtools调试工具安装
+https://blog.csdn.net/one_girl/article/details/80916232
+
+# 函数组件写起来更简洁，函数组件与类组件区别如下
+https://blog.csdn.net/xuchaobei123/article/details/75195522

@@ -1,0 +1,3 @@
+# 创建拥有typescript功能的app
+npx create-react-app react-tsx --typescript
+
