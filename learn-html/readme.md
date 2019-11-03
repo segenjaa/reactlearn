@@ -8,7 +8,12 @@ p为块级元素
 <hr>插入分割线
 b加粗
 i斜体
+
+html学习记录
 20190929 截止章节https://www.runoob.com/html/html-head.html
 20191008 截止章节https://www.runoob.com/html/html-layouts.html
 20191026 截止章节https://www.runoob.com/html/html-colorvalues.html
+20191103 截止章节html学习完毕
 
+html5学习记录
+20191103 https://www.runoob.com/html/html5-canvas.html
