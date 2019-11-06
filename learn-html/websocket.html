@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Websocket测试</title>
+    <script type="text/javascript">
+        //对应服务端代码为本地的，websocket.py
+        function WebSocketTest()
+        {
+            if (!("WebSocket" in window))
+            {
+                alert("浏览器不支持websocket");
+                reuturn;
+            }
+            
+            //打开websocket
+            var ws = new WebSocket("ws://localhost:8240");
+            ws.onopen = function()
+            {
+                ws.send("发送数据");
+                alert("数据发送中...");
+            };
+
+            ws.onmessage=function(evt)
+            {
+                var received_msg = evt.data;
+                alert("数据已接收...");
+            };
+
+            ws.onclose = function()
+            {
+                alert("连接已关闭...");
+            };
+        }
+    </script>
+</head>
+<body>
+    <div id="sse">
+        <a href="javascript:WebSocketTest()">运行WebSocket</a>
+    </div>
+</body>
+</html>
