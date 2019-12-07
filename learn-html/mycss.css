@@ -1,5 +1,15 @@
+/*
 p
 {
     background-color: beige;
     text-align: center;
+}
+*/
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
