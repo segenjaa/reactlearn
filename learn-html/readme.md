@@ -26,13 +26,21 @@ css3学习记录
 20191107 https://www.runoob.com/css/css-link.html
 20191207 https://www.runoob.com/css/css-outline.html
 20191228 https://www.runoob.com/css/css-display-visibility.html
+20200112 
 后续技术路线
 less
 javascript
+es6
 webpack
 react
 antd
 echart
 
 css考试：盒子模型、组合选择器
+
+
+
+##### css学习经验
+
+position定位类型：static、relative、fixed、absolute、sticky
 

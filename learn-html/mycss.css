@@ -1,3 +1,23 @@
+div.relative
+{
+    position: relative;
+    left: -10px;
+    border: solid green 1px;
+}
+
+div.fixed
+{
+    position: fixed;
+    top: 500px;
+    right: 5px;
+}
+
+div.static
+{
+    position: static;
+    border: green 1px solid;
+}
+
 #mypadding
 {
     padding: 10px;
