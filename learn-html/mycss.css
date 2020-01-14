@@ -1,3 +1,79 @@
+#vcenter
+{
+    padding: 20px 0;
+    border: 1px solid red;
+    text-align: center;
+}
+
+#imgtest
+{
+    /*text-align: center;*/
+}
+
+#imgtest img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+#centertest
+{
+    margin: auto;
+    width: 50%;
+    border: solid 1px green;
+    text-align: center;
+}
+
+.text_line
+{
+    clear: both;
+}
+
+#floattest
+{
+    /*height: 200px;*/
+    width: auto;
+}
+
+#floattest img
+{
+    float: right;
+}
+
+#hiddentest
+{
+    height: 100px;
+    overflow: hidden;
+    border: green 1px solid;
+    margin: 10px;
+}
+
+#overflow
+{
+    background: #4caf50;
+    color: white;
+    padding: 15px;
+    border: 1px green dotted;
+    width: 80%;
+    height: 100px;
+    overflow: scroll;
+}
+
+#ztest img
+{
+    position: absolute;
+    right:10px;
+    z-index: -1;
+}
+
+div.sticky
+{
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4caf50;
+}
+
 div.relative
 {
     position: relative;

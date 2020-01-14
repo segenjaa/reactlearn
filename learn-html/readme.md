@@ -26,7 +26,7 @@ css3学习记录
 20191107 https://www.runoob.com/css/css-link.html
 20191207 https://www.runoob.com/css/css-outline.html
 20191228 https://www.runoob.com/css/css-display-visibility.html
-20200112 
+20200114 https://www.runoob.com/css/css-combinators.html
 后续技术路线
 less
 javascript
@@ -43,4 +43,18 @@ css考试：盒子模型、组合选择器
 ##### css学习经验
 
 position定位类型：static、relative、fixed、absolute、sticky
+
+z-index决定元素的z序展示，需要与absolute配合使用
+
+overflow设置超过内容的处理方法，scroll出滚动条，hidden进行隐藏
+
+float浮动，用于图像排序和布局，只能左右移动，不能上下移动
+
+clear:left、right、both、none、inherit
+
+div水平对齐：margin为auto，width设置50% margin:0 auto
+
+文字水平对齐：text-align为center
+
+垂直居中：padding:70px 0;
 
