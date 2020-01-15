@@ -1,5 +1,80 @@
-#vcenter
-{
+#navh{
+    margin: 0 auto;
+    padding: 0;
+    width: 25%;
+    text-align: center;
+}
+
+#navh ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+#navh li{
+    display: inline;
+}
+
+#navh li a{
+    color: #000;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+#navh li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+#navh li a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+#navtest{
+    position: fixed;
+    overflow: auto;
+}
+
+#navtest ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+#navtest li{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+/*为减少最后一行叠加，进行最后一个线取消*/
+#navtest li:last-child{
+    border-bottom: none;
+}
+
+#navtest li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navtest li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+#navtest li a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+#vcenter{
     padding: 20px 0;
     border: 1px solid red;
     text-align: center;
