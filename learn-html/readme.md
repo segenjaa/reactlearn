@@ -198,31 +198,53 @@ typescript、redux
 
 
 
-###### JavaScript教程
+###### 4.1 JavaScript教程
 
 https://wangdoc.com/javascript/
 
 
 
-###### es6学习记录
+###### 4.2 es6学习记录
 
 《ECMAScript 6 入门教程》阮一峰
 
 20200206 http://es6.ruanyifeng.com/#docs/destructuring
 
+20200207 http://es6.ruanyifeng.com/#docs/string
 
+20200208 http://es6.ruanyifeng.com/#docs/regex
 
-ECMA：European Computer Manufacturers Association，欧洲计算机制造商协会，评估、开发和认可电信和计算机标准。总部在日内瓦
-
-TC39委员会 https://github.com/tc39/ecma262
-
-let声明变量、const声明常量
-
-es6声明变量六种方法：var、function、let、const、import、class
+20200209 http://es6.ruanyifeng.com/#docs/function
 
 
 
-箭头函数
++ ECMA：European Computer Manufacturers Association，欧洲计算机制造商协会，评估、开发和认可电信和计算机标准。总部在日内瓦
+
++ TC39委员会 https://github.com/tc39/ecma262
+
++ let声明变量、const声明常量
+
+  es6声明变量六种方法：var、function、let、const、import、class
+
++ 模板字符串这个比较好用
+
+```
+const s1 = `There are <b>100</b> items in your basket`
+const s2 = `\`Yo\` World ${s1}`
+console.log(s2)//`Yo` World There are <b>100</b> items in your basket
+```
+
++ 常规模板
+
+  使用`<%...%>`放置js代码，使用`<%=...%>`放置js表达式
+
++ 字符串有四个方法，内部采用的正则表达式实现，match()、replace()、search()、split()
+
++ 0b前缀为二进制，0o前缀为八进制
+
++ 指数运算符**
+
++ we
 
 ##### 5、后续技术路线
 less
@@ -239,15 +261,4 @@ antd
 
 echart
 
-
-
-##### 6、react项目
-
-react-motion https://github.com/chenglou/react-motion
-
-
-
-##### 内容总结
-
-把最有感触的总结一下
 

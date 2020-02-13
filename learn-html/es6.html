@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ES6测试提醒</title>
+    <script>
+        //#region 解构赋值
+        /*
+        let [x, y] = [1, 2]
+        document.write(x + ' ' + y)
+        console.log(x + ',' + y)
+        */
+        //let [a] = 1
+
+        /*
+        let {foo, bar} = {foo:'a', bar:123}
+        console.log('foo:' + foo)
+        console.log('bar:' + bar)
+        */
+        //#endregion
+
+        //#region 交换值
+        /*
+        console.log('值交换测试')
+        let x = 1
+        let y = 2
+        console.log('x:' + x + ',y:' + y)
+        let [a,b]= [10,8]
+        console.log('a:' + a + ',b:' + b)
+        */
+        //#endregion
+
+        //#region json解析
+        /*
+        let jsonData = {
+            id:42,
+            status:"ok",
+            data:[867,5309]
+        }
+
+        let {id,status,data:number} = jsonData
+        console.log(id, status, number)
+        */
+        //#endregion
+
+        //#region 遍历map结构
+        /*
+        const map = new Map()
+        map.set('first', 'hello')
+        map.set('second', 'world')
+
+        for (let [key, value] of map){
+            console.log(key + ' is ' + value)
+        }
+        */
+        /*
+        for (let test of map){
+            console.log(test)
+        }
+        */
+        //#endregion
+
+        //#region
+        /*
+        const t1 = "\u0061"
+        console.log(t1)
+        const t2 = "\ud842\udfb7"
+        console.log(t2)
+        const t3 = "\u{41}\u{42}"
+        console.log(t3)
+        for (let cp of 'foo') {
+            console.log(cp)
+        }
+        console.log("\u005c")//输出反斜杠
+        const s1 = `There are <b>100</b> items in your basket`
+        console.log(s1)
+        const s2 = `\`Yo\` World ${s1}`
+        console.log(s2)
+        let data = [1, 2, 3]
+
+        document.write('<ul>')
+        for (let i = 0; i < data.length; i++) {
+            document.write('<li>')
+            document.write(data[i])
+            document.write('</li>')
+        }
+        document.write('</ul>')
+        */
+        //#endregion
+
+        //#region 字符串的新增方法
+        /*
+        let s = "hello world"
+        let r = s.includes('hello')
+        console.log(r)
+
+        let l1 ='hell world\n'.repeat(10)
+        console.log(l1)
+        */
+        //#endregion
+
+        //#region 正则的扩展
+        /*
+        const r1 = /hello/
+        const r2 = /hello/u
+        console.log(r1.unicode)
+        console.log(r2.unicode)
+        */
+        //#endregion
+
+        //#region 数值的扩展
+        console.log(0b111110111)//二进制信息
+        console.log(0o767)//八进制信息
+        console.log(Number('0b11'))//转为十进制
+        console.log(Number.parseInt('12.34'))
+        console.log(Number.parseFloat('123.45#'))
+        console.log(Number.EPSILON)
+        console.log(2**4)//指数运算符
+        //#endregion
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
