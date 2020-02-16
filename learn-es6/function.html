@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>函数的扩展</title>
+
+    <script>
+        function log(x, y='world'){
+            console.log(x, y)
+        }
+
+        log('hello')
+        log('hello', 'china')
+        log('hello', '')
+
+        function Point(x=0,y=0){
+            this.x = x;
+            this.y = y;
+        }
+
+        const p = new Point()
+        console.log(p)
+
+        function add(...values){
+            let sum = 0
+            for (const val of values){
+                sum += val
+            }
+
+            return sum
+        }
+
+        let val = add(2,5,3)
+        console.log(val)
+        console.log(add.name)
+
+        let getTempItem = id => ({id:10, name:'jsl'})
+        console.log(getTempItem())
+
+        /*
+        const cat = {
+            lives : 9,
+            jump1:()=>{
+                console.log(this)
+                this.lives--
+            },
+            jump2:function() {
+                console.log(this)
+                this.lives--
+            }
+        }
+        
+        console.log(cat.lives)
+        cat.jump1()
+        console.log(cat.lives)
+        cat.jump2()
+        console.log(cat.lives)
+        */
+
+        //#region
+        /*
+        const cat = {
+            lives : 9,
+            jump:()=>{
+                this.lives--
+            }
+        }
+
+        console.log(cat)
+        console.log(cat.lives)
+        cat.jump()
+        console.log(cat.lives)
+        
+        class MyCat{
+            constructor(){
+                this.lives = 9
+                this.jump = ()=>{
+                    console.log(this)
+                    this.lives--
+                }
+            }
+        }
+
+        let cat1 = new MyCat
+        console.log(cat1.lives)
+        cat1.jump()
+        console.log(cat1.lives)
+
+        let cat2 = new MyCat
+        console.log(cat2.lives)
+        */
+        //#endregion
+
+        //#region
+        function Fibonacci2(n, ac1=1, ac2=1){
+            if (n <= 1) {return ac2}
+
+            return Fibonacci2(n-1, ac2, ac1 + ac2)
+        }
+
+        const f1 = Fibonacci2(100)
+        console.log(f1)
+
+        //#endregion
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
