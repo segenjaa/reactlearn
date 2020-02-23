@@ -10,6 +10,8 @@
 
 20200220 http://es6.ruanyifeng.com/#docs/proxy
 
+20200223 http://es6.ruanyifeng.com/#docs/reflect
+
 
 
 + 扩展运算符为三个点...
@@ -20,4 +22,5 @@
 + Set的遍历，keys()、values()、entries()、forEach()
 + Map的方法，size、set(key,value)、get(key)、has(key)、delete(key)、clear()
 + Map的遍历，keys()、values()、entries()、forEach()
++ Proxy可以进行代理操作
 
