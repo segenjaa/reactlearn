@@ -12,6 +12,8 @@
 
 20200223 http://es6.ruanyifeng.com/#docs/reflect
 
+20200229 https://es6.ruanyifeng.com/#docs/promise
+
 
 
 + 扩展运算符为三个点...
